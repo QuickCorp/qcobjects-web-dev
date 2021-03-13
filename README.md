@@ -256,6 +256,7 @@ QCObjects in installable in your computer, it comes with a CLI Tool and commands
 # Dynamic Components Architecture
 
 ![qcobjects components layout](https://qcobjects.dev/doc/img/QCObjects-Components-Layout.gif)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FQuickCorp%2FQCObjects.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FQuickCorp%2FQCObjects?ref=badge_shield)
 
 
 # ECMA-262 Specification
@@ -300,7 +301,7 @@ The following code shows how QCObjects can manipulate canvas objects directly an
 <html>
     <head>
     	<title>Demo</title>
-    	<script type="text/javascript" src="https://qcobjects.dev/QCObjects.js"></script>
+    	<script type="text/javascript" src="https://cdn.qcobjects.dev/QCObjects.js"></script>
     	<script type="text/javascript">
     		var canvas1,canvas2,canvas3,container;
         CONFIG.set('relativeImportPath','src/');
@@ -454,7 +455,7 @@ WARNING: Do this only in a fresh|blank|brandnew installation of Ubuntu 18.x, don
 
 
 ```shell
-curl -L https://qcobjects.dev/install_qcobjects_ubuntu18x.sh |sh
+curl -L https://cdn.qcobjects.dev/install_qcobjects_ubuntu18x.sh |sh
 ```
 
 WARNING: I'm not responsible for damaging your infrastructure by using an automated installation script into an unsafe network. Make sure all your repos and scripts are under HTTPS with a valid certificate. For better safe results I recommended you to download the script, edit it for your special needs and then execute it in your machine as local.
@@ -469,7 +470,7 @@ curl -L https://cdn.qcobjects.dev/install_qcobjects_rhel8.sh |sh
 Tested on macOS Catalina 10.15.3
 
 ```shell
-curl -L https://qcobjects.dev/install_qcobjects_macOS.sh | zsh
+curl -L https://cdn.qcobjects.dev/install_qcobjects_macOS.sh | zsh
 ```
 
 ## Install and test QCObjects on Microsoft Windows OS
@@ -527,7 +528,7 @@ A Private Image lets you build a new AMI by installing AWS Marketplace software 
 ## Using the development version code in the straight way into HTML5:
 
 ```html
-<script type="text/javascript" src="https://qcobjects.dev/QCObjects.js"></script>
+<script type="text/javascript" src="https://cdn.qcobjects.dev/QCObjects.js"></script>
 ```
 
 ## Using the CDN minified version code from jsDelivr CDN
@@ -1192,7 +1193,7 @@ Where selector is a DOM query selector.
 <html>
     <head>
     	<title>Demo</title>
-    	<script type="text/javascript" src="https://qcobjects.dev/QCObjects.js"></script>
+    	<script type="text/javascript" src="https://cdn.qcobjects.dev/QCObjects.js"></script>
     </head>
     <body>
     <div class="myselector">
@@ -1341,7 +1342,7 @@ Sets the name of the related component instance built by QCObjects.
 <html>
     <head>
     	<title>Demo</title>
-    	<script type="text/javascript" src="https://qcobjects.dev/QCObjects.js"></script>
+    	<script type="text/javascript" src="https://cdn.qcobjects.dev/QCObjects.js"></script>
     </head>
     <body>
       <!-- this will load the contents of ./templates/main[.tplextension] file -->
@@ -3137,3 +3138,7 @@ Import('cl.quickcorp'); # this will import your main file: cl.quickcorp.js into 
 ## Use:
    $ qcobjects-cli [command] --help
    For detailed information of a command
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FQuickCorp%2FQCObjects.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FQuickCorp%2FQCObjects?ref=badge_large)
