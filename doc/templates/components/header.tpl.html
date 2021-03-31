@@ -1,6 +1,8 @@
 <style>
 @import url('doc/css/components/hero/hero-call-to-action.css');
 @import url('doc/css/components/floating-object-effect.css');
+$layout(portrait,doc/css/components/header-video-portrait.css)
+$layout(landscape,doc/css/components/header-video-landscape.css)
 </style>
 <div class="container">
   <div class="hero__content">
@@ -11,5 +13,7 @@
       <routing path="^(?!#download).*$" name="download-button"></routing>
     </component>
   </div>
-  <img class="floating-object" src="doc/img/qco2.png" alt="pwa academy">
+  <div class="header_video">
+    <component shadowed=true name="shadowed-youtube-video" data-youtube_id="NpIU36ixgdM"></component>
+  </div>
 </div>
