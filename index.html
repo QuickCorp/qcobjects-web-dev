@@ -31,7 +31,12 @@
     <!-- anchor linking to external file -->
     <p>This page needs JavaScript because it uses QCObjects (https://qcobjects.com)</p>
   </noscript>
-  <component name="layout-basic" shadowed=true cached=true controllerClass="MainController">
+  <component componentClass="CubeSplashScreenComponent"
+    duration="3000" data-background="black"
+    data-cube_image="./doc/img/Q_web-white.png">
+  </component>
+
+  <component name="layout-basic" splashscreen cached=true controllerClass="MainController">
   </component>
 <script type="text/javascript" src="doc/js/init.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
