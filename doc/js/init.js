@@ -70,6 +70,5 @@ Processor.setProcessor(snippet);
 
 Import("cl.quickcorp"); // this will load js/packages/org.quickcorp.custom.js file
 
-Ready(function (){
-  // your initial code here
-});
+RegisterWidget("splash-screen");
+RegisterWidget("layout-basic");
